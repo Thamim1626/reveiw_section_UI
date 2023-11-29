@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+}
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+.heading {
+  color: honeydew;
+}
+
+.sub-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  padding: 16px;
+}
+
+.name {
+  color: white;
+  margin-top: 10px;
+}
+.role {
+  margin-top: 12px;
+}
+.des {
+  text-align: center;
+  margin-top: 12px;
+}
